@@ -54,7 +54,7 @@ USE THE ON BOARD IR TX SENDER AND RX RECEIVER.THE DEMO CODE WILL SEND IR DATA AN
 	d2
 	rep = 0  end 
 	begin
-	-----------------------
+	
 	ir rx data:
 	IR buf pop : 28h 
 	IR buf pop : 28h 
@@ -67,5 +67,5 @@ USE THE ON BOARD IR TX SENDER AND RX RECEIVER.THE DEMO CODE WILL SEND IR DATA AN
 	IR buf pop : 28h 
 	IR buf pop : 28h 
 	IR buf pop : 28h 
-	==================
+
     
