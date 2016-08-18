@@ -37,8 +37,7 @@
 		FLASH SIZE: 16Mbit-C11
 		
 ##FOR VERIFY: 
-6.	UART0 print as below after boot up.
-	The UART will firstly print out all the SSID nearby, then it will continue to print out H2M9 with the length of different packages it can detect.The Sniffer test is successful if the UART would have the prints similar to the figure below:
+UART0 print as below after boot up.The UART will firstly print out all the SSID nearby, then it will continue to print out H2M9 with the length of different packages it can detect.The Sniffer test is successful if the UART would have the prints similar to the figure below:
 	
 	Sniffer testing mode ....: 1.4.0(c599790)
 	f r0, wifi_station_scan ok
