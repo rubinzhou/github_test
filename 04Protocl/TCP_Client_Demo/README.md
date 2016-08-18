@@ -38,4 +38,5 @@
 		
 ##FOR VERIFY: 
 Make sure that the Connect_AP part is successful and Open any TCP Server Tool, configure the TCP to connect to port 7007,The TCP client test is successful if the server could receive the message: 
+
 	"Hello!This is a tcp client test\n"
