@@ -37,11 +37,8 @@
 		FLASH SIZE: 16Mbit-C11
 		
 ##FOR VERIFY: 
-UART0 print as below after boot up.
-
-	Make sure that the Connect_AP part is successfulESP_8266 will print the local server IP on the UART_0 , mark down this IP address
-
-	Open any UDP Tool, configure the UDP to connect to port 1024 and IP from the previous part.use the UDP Tool to Send any strings to ESP_8266. The UDP  client test is successful if the UART can print :
+UART0 print as below after boot up.Make sure that the Connect_AP part is successfulESP_8266 will print the local server IP on the UART_0 , mark down this IP address. Open any UDP Tool, configure the UDP to connect to port 1024 and IP from the previous part.use the UDP Tool to Send any strings to ESP_8266. The UDP  client test is successful if the UART can print :
 
 	------------------UDP_RECV_CB---------------
 	[Dbg]UDP_RECV_CB len:%d ip:0.0.0.0 port:0
+	
