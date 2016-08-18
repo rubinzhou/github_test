@@ -38,7 +38,7 @@
 		
 ##FOR VERIFY: 
 6.	UART0 print as below after boot up.
-	The UART will firstly print out all the SSID nearby, then it will continue to print out H2M9 with the length of different packages it can detect.The Sniffer test is successful if the UART would have the prints similar to the figure below. 
+	The UART will firstly print out all the SSID nearby, then it will continue to print out H2M9 with the length of different packages it can detect.The Sniffer test is successful if the UART would have the prints similar to the figure below:
 	
 	Sniffer testing mode ....: 1.4.0(c599790)
 	f r0, wifi_station_scan ok
@@ -61,7 +61,8 @@
 	ssid esp8266-test, channel 2, authmode 4, rssi -43
 	ssid ESPTEST_360R, channel 2, authmode 0, rssi -45
 	sshmode 0, rssi -83
-	current channel1 1--------------------------------------------2615546
+	current channel1 1 2615546
 	H2M14
 	H2M13
 	H2M11
+
