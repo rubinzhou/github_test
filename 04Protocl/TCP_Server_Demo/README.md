@@ -37,8 +37,6 @@
 		FLASH SIZE: 16Mbit-C11
 		
 ##FOR VERIFY: 
-UART0 print as below after boot up.
-
-	Make sure that the Connect_AP part is successful.ESP_8266 will generate a Server IP, find this IP Address from the UART prints.Open any TCP Client Tool, configure the TCP to connect to port 1023 and the IP from the UART prints, The TCP client test is successful if the ESP_8266 could print the message: 
-
-       ?------TCP server CONNECT----------?
+UART0 print as below after boot up. Make sure that the Connect_AP part is successful.ESP_8266 will generate a Server IP, find this IP Address from the UART prints.Open any TCP Client Tool, configure the TCP to connect to port 1023 and the IP from the UART prints, The TCP client test is successful if the ESP_8266 could print the message: 
+	
+	?------TCP server CONNECT----------?
