@@ -37,7 +37,6 @@
 		FLASH SIZE: 16Mbit-C11
 		
 ##FOR VERIFY: 
-UART0 print as below after boot up.
-
-	Make sure that the Connect_AP part is successful and Open any UDP Server Tool, configure the UDP to connect to port 1024 ,The UDP client test is successful if the server window could receive the message: 
-       "Hello!This is a udp client test\n"
+UART0 print as below after boot up.Make sure that the Connect_AP part is successful and Open any UDP Server Tool, configure the UDP to connect to port 1024 ,The UDP client test is successful if the server window could receive the message: 
+       
+	"Hello!This is a udp client test\n"
