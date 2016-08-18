@@ -38,6 +38,7 @@
 		
 ##FOR VERIFY: 
 UART0 print as below after boot up
+	
 	f r0, now entering the scan AP test..... 
 	scandone
 	now doing the scan_done... 
